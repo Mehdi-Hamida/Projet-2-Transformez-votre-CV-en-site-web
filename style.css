@@ -1,0 +1,31 @@
+.row
+{
+    height: 100vh;
+}
+
+#col1
+{
+    background-color: #0078ff;
+    color: white;
+}
+
+#col2
+{
+    background-color: black;
+    color: white;
+}
+
+p
+{  
+overflow-wrap: break-word;
+}
+
+h3
+{
+    background-color: #222222;
+}
+
+#lien
+{
+    color: aqua;
+}
