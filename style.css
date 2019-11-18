@@ -1,3 +1,4 @@
+/* DEBUT STYLES GENERAUX */
 .row
 {
     height: 100vh;
@@ -17,15 +18,90 @@
 
 p
 {  
-overflow-wrap: break-word;
-}
-
-h3
-{
-    background-color: #222222;
+    overflow-wrap: break-word;
+    font-size: small;
 }
 
 #lien
 {
     color: aqua;
+}
+
+h3
+{
+    font-size: 1.3em;
+}
+/* FIN STYLES GENERAUX */
+/* DEBUT STYLES POUR COLONNE GAUCHE */
+img
+{
+    width: 110%;
+    max-width: 10em;
+}
+
+#photo
+{
+    text-align: center;
+}
+
+#contact
+{
+    margin-left: 5%;
+}
+
+#description
+{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#loisirs
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.categories_gauche
+{
+    text-align: center;
+    background-color: #222222;
+}
+/* FIN STYLES POUR COLONNE GAUCHE */
+/* DEBUT STYLES POUR CORPS DU CV */
+#corps_du_cv
+{
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+strong
+{
+    color: #0078ff;
+}
+
+#court
+{
+    float: left;
+    width: 3em;
+}
+
+h1
+{
+    font-size: 2.5em;
+}
+
+h2
+{
+    font-size: 1em;
+}
+
+h4
+{
+    font-size: medium;
+}
+
+hr
+{
+    background-color: #0078ff;
 }
