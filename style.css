@@ -1,7 +1,12 @@
 /* DEBUT STYLES GENERAUX */
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
 #col1
 {
-    background-color: #0078ff;
+    background-color: #1DE9B6;
     color: white;
 }
 
@@ -13,17 +18,23 @@
 p
 {  
     overflow-wrap: break-word;
-    font-size: small;
+    font-size: medium;
+}
+
+#lien1
+{
+    color: white;
+    text-decoration: underline;
 }
 
 #lien
 {
-    color: aqua;
+    color: #1DE9B6;
 }
 
 h3
 {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 /* FIN STYLES GENERAUX */
 /* DEBUT STYLES POUR COLONNE GAUCHE */
@@ -61,7 +72,7 @@ img
 #icone_loisir1, #icone_loisir2, #icone_loisir3, #icone_loisir4, #icone_loisir5
 {
     margin-right: 7%;
-    margin-bottom: 5%; /*Pour pas que ca s'entasse sur affichage mobile*/
+    margin-bottom: 7%; /*Pour ne pas que ca s'entasse sur affichage mobile.*/
     color: white;
     font-size: 3.5em;
 }
@@ -70,8 +81,8 @@ img
 {
     text-align: center;
     background-color: white;
-    color: #0078ff;
-    margin-left: -15%;
+    color: #1DE9B6;
+    margin-left: -15%;/*Valeurs négatives pour occuper tout l'écran*/
     margin-right: -15%;
     margin-bottom: 5%;
 }
@@ -105,7 +116,7 @@ img
 
 i
 {
-    color: #0078ff;
+    color: #1DE9B6;
 }
 
 .dernier_paragraphe
@@ -120,7 +131,7 @@ i
 
 strong
 {
-    color: #0078ff;
+    color: #1DE9B6;
 }
 
 #court
@@ -136,13 +147,13 @@ strong
 
 h1
 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-bottom: 0%;
 }
 
 h2
 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 0.2%;
 }
 
@@ -153,7 +164,13 @@ h4
 
 hr
 {
-    background-color: #0078ff;
+    background-color: #1DE9B6;
     margin-top: 0%;
     margin-bottom: 2em;
+}
+
+em
+{
+    font-weight: bold;
+    font-style: normal;
 }
