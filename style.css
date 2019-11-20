@@ -1,9 +1,4 @@
 /* DEBUT STYLES GENERAUX */
-.row
-{
-    height: 100vh;
-}
-
 #col1
 {
     background-color: #0078ff;
@@ -12,8 +7,7 @@
 
 #col2
 {
-    background-color: black;
-    color: white;
+    color: black;
 }
 
 p
@@ -42,6 +36,8 @@ img
 #photo
 {
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 7%;
 }
 
 #contact
@@ -58,21 +54,67 @@ img
 
 #loisirs
 {
+    text-align: center;
     margin-left: 5%;
-    margin-right: 5%;
+}
+
+#icone_loisir1, #icone_loisir2, #icone_loisir3, #icone_loisir4, #icone_loisir5
+{
+    margin-right: 7%;
+    color: white;
+    font-size: 3.5em;
 }
 
 .categories_gauche
 {
     text-align: center;
-    background-color: #222222;
+    background-color: white;
+    color: #0078ff;
+    margin-left: -15%;
+    margin-right: -15%;
+    margin-bottom: 5%;
+}
+
+.rapproche
+{
+    margin-bottom: 0px;
 }
 /* FIN STYLES POUR COLONNE GAUCHE */
 /* DEBUT STYLES POUR CORPS DU CV */
+#en-tete
+{
+    margin-top: 4em;
+}
+
 #corps_du_cv
 {
     margin-left: 5%;
     margin-right: 3%;
+}
+
+.col-sm-3, .col-sm-6
+{
+    margin-bottom: 5%;
+}
+
+.icone
+{
+    margin-right: 3%;
+}
+
+i
+{
+    color: #0078ff;
+}
+
+.dernier_paragraphe
+{
+    margin-bottom: 4em;
+}
+
+.rapproche2
+{
+    margin-bottom: 5px;
 }
 
 strong
@@ -86,14 +128,21 @@ strong
     width: 3em;
 }
 
+#formation
+{
+    margin-top: 4em;
+}
+
 h1
 {
     font-size: 2.5em;
+    margin-bottom: 0%;
 }
 
 h2
 {
     font-size: 1em;
+    margin-bottom: 0.2%;
 }
 
 h4
@@ -104,4 +153,6 @@ h4
 hr
 {
     background-color: #0078ff;
+    margin-top: 0%;
+    margin-bottom: 2em;
 }

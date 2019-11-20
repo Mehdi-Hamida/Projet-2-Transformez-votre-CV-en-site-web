@@ -7,194 +7,205 @@
     <meta charset="utf-8" />
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CV - Mehdi HAMIDA</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <!--     DEBUT STRUCTURE + CONTENU COLONNE DE GAUCHE       -->
+        <div class="row" id="row1">
+            <!--DEBUT STRUCTURE + CONTENU COLONNE DE GAUCHE-->
             <div class="col-4" id="col1">
                 <aside>
-                    <section id="menu lateral gauche">
-                        <br /> <br />
-                            <p id="photo"><img src="img/avatar2.png" title="Mon avatar" alt="avatar"/></p>
-                        <br />
-                        <div id="titre contact">
+                    <section id="menu_lateral_gauche">
+                        <p id="photo"><img src="img/avatar2.png" title="Mon avatar" alt="avatar" /></p>
+                        <div id="titre_contact">
                             <h3 class="categories_gauche">CONTACT</h3>
                         </div>
-                        <br />
                         <div id="contact">
-                            <p>Adresse</p>
-                            <p>54 Avenue Jean Moulin,<br />69720, St-Laurent-de-Mûre</p>
-                            <br />
-                            <p>Téléphone</p>
-                            <p>06 50 58 94 76</p>
-                            <br />
-                            <p>Email</p>
-                            <p><a href=mailto:mehdihamida.pro@gmail.com id="lien">mehdihamida.pro@gmail.com</a></p>
-                            <br />
-                            <p>Site web</p>
-                            <p>www.exemple.com</p>
-                            <br />
-                            <p>Skype</p>
-                            <p>mehdihamida@outlook.com</p>
-                            <br />
+                            <div id="adresse">
+                                <p class="rapproche">Adresse</p>
+                                <p>54 Avenue Jean Moulin, 69720, St-Laurent-de-Mûre</p>
+                            </div>
+                            <div id="tel">
+                                <p class="rapproche">Téléphone</p>
+                                <p>06 50 58 94 76</p>
+                            </div>
+                            <div id="email">
+                                <p class="rapproche">Email</p>
+                                <p><a href=mailto:mehdihamida.pro@gmail.com id="lien">mehdihamida.pro@gmail.com</a></p>
+                            </div>
+                            <div id="site">
+                                <p class="rapproche">Site web</p>
+                                <p>www.exemple.com</p>
+                            </div>
+                            <div id="skype">
+                                <p class="rapproche">Skype</p>
+                                <p>mehdihamida@outlook.com</p>
+                            </div>
                         </div>
                     </section>
                     <section id="partie contact">
-                        <div id="titre a propos de moi">
+                        <div id="titre_a_propos_de_moi">
                             <h3 class="categories_gauche">A PROPOS DE MOI</h3>
                         </div>
-                        <br />
                         <p id="description">
                             Agé de 21 ans, je suis passionné de High-Tech depuis mon plus jeune âge. J'ai découvert le développement lors de la phase de sélection ("piscine") de l'Ecole 42. C'est au cours de cette phase intensive d'un mois que j'ai développé un intérêt pour la programmation. J'y ai découvert les bases d'Unix, et j'ai principalement programmé en C, sur des projets variés. Malgré la difficulté et l'intensité de l'épreuve, ce fût une expérience incroyablement riche, tant au niveau des connaissances informatiques acquises qu'au niveau social. Depuis, je me suis formé en autodidacte en ligne, jusqu'à intégrer la formation en ligne Prep'web d'OpenClassrooms, à laquelle je participe actuellement.
                         </p>
                     </section>
-                    <section id="partie loisirs">
-                        <div id="titre loisirs">
+                    <section id="partie_loisirs">
+                        <div id="titre_loisirs">
                             <h3 class="categories_gauche">LOISIRS</h3>
                         </div>
-                        <br />
-                        <div id="loisirs">
-                        </div>
+                        <p id="loisirs">
+                            <i class="far fa-compass" id="icone_loisir1"></i>
+                            <i class="fas fa-microchip" id="icone_loisir2"></i>
+                            <i class="fas fa-dumbbell" id="icone_loisir3"></i>
+                            <i class="fas fa-car" id="icone_loisir4"></i>
+                            <i class="fas fa-pencil-ruler" id="icone_loisir5"></i>
+                        </p>
                     </section>
                 </aside>
             </div>
-            <!--     FIN STRUCTURE + CONTENU COLONNE DE GAUCHE       -->
-            <!--     DEBUT STRUCTURE + CONTENU CORPS DU CV       -->
+            <!--FIN STRUCTURE + CONTENU COLONNE DE GAUCHE-->
+            <!--DEBUT STRUCTURE + CONTENU CORPS DU CV-->
             <div class="col-8" id="col2">
                 <section id="corps_du_cv">
-                    <br /> <br /> <br />
                     <div id="en-tete">
                         <h1><strong>MEHDI</strong> HAMIDA</h1>
                         <h2>Développeur web junior</h2>
                     </div>
-                    <hr id="court"/>
-                    <br /> <br /> <br />
-                    <div id="titre formation">
-                        <h3>FORMATION</h3>
+                    <hr id="court" />
+                    <div id="titre_formation">
+                        <h3 id="formation"><span class="icone"><i class="fas fa-graduation-cap"></i></span>FORMATION</h3>
                     </div>
-                    <hr/>
-                    <div id="formation">
-                        <div id="formation 1 gauche">
-                            <p>
-                                14/10/19 - Actuellement
-                                <br />
-                                En ligne
-                            </p>
+                    <hr />
+                    <div class="container-fluid">
+                        <!--ROW 1ERE FORMATION-->
+                        <div class="row" id="row2">
+                            <div class="col-sm-3">
+                                <p class="rapproche">14/10/19 - Actuellement</p>
+                                <p>En ligne</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>OPENCLASSROOMS</h4>
+                                <p class="rapproche2">
+                                    Parcours "Prep' web"
+                                </p>
+                                <p>
+                                    Je me forme actuellement au développement web via la formation "Prep' web" sur le site <a href="https://openclassrooms.com/fr/" id="lien">OpenClassrooms</a> (Formation labellisée Grande Ecole du Numérique). C'est une formation en 6 mois basée sur l'apprentissage par projets concrets.
+                                </p>
+                            </div>
                         </div>
-                        <div id="formation 1 droite">
-                            <h4>OPENCLASSROOMS</h4>
-                            <p>
-                                Parcours "Prep' web"
-                            </p>
-                            <p>
-                                Je me forme actuellement au développement web via la formation "Prep' web" sur le site <a href="https://openclassrooms.com/fr/" id="lien">OpenClassrooms</a> (Formation labellisée Grande Ecole du Numérique). C'est une formation en 6 mois basée sur l'apprentissage par projets concrets.
-                            </p>
+                        <!--ROW 2EME FORMATION-->
+                        <div class="row" id="row2">
+                            <div class="col-sm-3">
+                                <p class="rapproche">23/08/19 - 13/10/19</p>
+                                <p>Autodidacte en ligne</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>(OPENCLASSROOMS, CODECAMP, M1M0)</h4>
+                                <p class="rapproche2">
+                                    JavaScript, Ruby
+                                </p>
+                                <p>
+                                    Dès la fin de la phase de sélection de l'Ecole 42, j'ai continué à me former en autodidacte sur des sites tels que <a href="https://openclassrooms.com/fr/" id="lien">OpenClassrooms</a>, <a href="https://www.codecademy.com/" id="lien">Codecademy</a> ou encore l'application mobile M1m0. C'est au cours de cette période que je me suis initié au JavaScript ES6, puis au Ruby. Apprendre en autodidacte n'est pas un problème puisque lors de mon immersion dans l'informatique (A l'Ecole 42), il n'y avait pas de professeurs, j'ai du chercher moi-même les réponses à mes questions via les ressources proposeées sur le web, ou en demandant à mes pairs.
+                                </p>
+                            </div>
                         </div>
-                        <div id="formation 2 gauche">
-                            <p>
-                                23/08/19 - 13/10/19
-                                <br />
-                                Autodidacte en ligne
-                            </p>
+                        <!--ROW 3EME FORMATION-->
+                        <div class="row" id="row2">
+                            <div class="col-sm-3">
+                                <p class="rapproche">07/2017 - 07/2019</p>
+                                <p>Lyon 6ème</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>CARREL</h4>
+                                <p class="rapproche2">
+                                    BTS Management des Unités Commerciales (Non obtenu)
+                                </p>
+                                <p class="dernier_paragraphe">
+                                    Au cours de ce cursus en alternance sur 2 ans, j'ai étudié la logique managériale et entrepreneuriale, ainsi que les fondamentaux de la gestion d'une entreprise. D'autres thèmes étaient au programme, notamment le marketing, le merchandising, la communication, etc... C'est au cours de cette formation que j'ai appronfondi mon usage de Word et Powerpoint. Bien que n'ayant pas obtenu le diplôme, j'ai suivi la formation jusqu'au bout, ce qui m'a permis d'acquérir de nombreuses notions, ainsi qu'une logique commerciale qui pourront être appliquées au domaine de l'informatique.
+                                </p>
+                            </div>
                         </div>
-                        <div id="formation 2 droite">
-                            <h4>(OPENCLASSROOMS, CODECAMP, M1M0)</h4>
-                            <p>
-                                JavaScript, Ruby
-                            </p>
-                            <p>
-                                Dès la fin de la phase de sélection de l'Ecole 42, j'ai continué à me former en autodidacte sur des sites tels que <a href="https://openclassrooms.com/fr/" id="lien">OpenClassrooms</a>, <a href="https://www.codecademy.com/" id="lien">Codecademy</a> ou encore l'application mobile M1m0. C'est au cours de cette période que je me suis initié au JavaScript ES6, puis au Ruby. Apprendre en autodidacte n'est pas un problème puisque lors de mon immersion dans l'informatique (A l'Ecole 42), il n'y avait pas de professeurs, j'ai du chercher moi-même les réponses à mes questions via les ressources proposeées sur le web, ou en demandant à mes pairs.
-                            </p>
+                        <div id="titre_experience_professionnelle">
+                            <h3><span class="icone"><i class="fas fa-briefcase"></i></span>EXPERIENCE PROFESSIONNELLE</h3>
                         </div>
-                        <div id="formation 3 gauche">
-                            <p>
-                                07/2017 - 07/2019
-                                <br />
-                                Lyon 6ème
-                            </p>
+                        <hr />
+                        <!--ROW 1ERE EXPERIENCE-->
+                        <div class="row" id="row2">
+                            <div class="col-sm-3">
+                                <p class="rapproche">29/07/19 - 23/08/19</p>
+                                <p>Lyon, Confluence</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>ECOLE 42</h4>
+                                <p class="rapproche2">
+                                    "Piscine" de l'Ecole 42
+                                </p>
+                                <p>
+                                    Une immersion intensive d'un mois, 7j/7 dans le monde du code informatique. C'est la phase de sélection pour chaque promotion de cette école d'un genre nouveau, créée par Xvie NIEL, le PDG de l'opérateur Free Mobile. C'est durant cette phase d'un mois que je me suis initié au code informatique (particulièrement en C, mais également en Unix, j'y ai aussi découvert Git).
+                                </p>
+                            </div>
                         </div>
-                        <div id="formation 3 droite">
-                            <h4>CARREL</h4>
-                            <p>
-                                BTS Management des Unités Commerciales (Non obtenu)
-                            </p>
-                            <p>
-                                Au cours de ce cursus en alternance sur 2 ans, j'ai étudié la logique managériale et entrepreneuriale, ainsi que les fondamentaux de la gestion d'une entreprise. D'autres thèmes étaient au programme, notamment le marketing, le merchandising, la communication, etc... C'est au cours de cette formation que j'ai appronfondi mon usage de Word et Powerpoint. Bien que n'ayant pas obtenu le diplôme, j'ai suivi la formation jusqu'au bout, ce qui m'a permis d'acquérir de nombreuses notions, ainsi qu'une logique commerciale qui pourront être appliquées au domaine de l'informatique.
-                            </p>
+                        <!--ROW 2EME EXPERIENCE-->
+                        <div class="row" id="row2">
+                            <div class="col-sm-3">
+                                <p class="rapproche">07/17 - 07/19</p>
+                                <p>Lyon, Bellecour</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>MEGASTORE ORANGE REPUBLIQUE</h4>
+                                <p class="rapproche2">
+                                    Conseiller Technique (En apprentissage)
+                                </p>
+                                <p class="dernier_paragraphe">
+                                    Au cours de ce contrat d'apprentissage, mon rôle était de recevoir les clients, et les accompagner dans les difficultés rencontrées avec leurs équipements numériques (smartphone, tablette, objets connectés, box internet, décodeur TV et autres accessoires). Je m'occupais du S.A.V, ainsi que de donner des cours particuliers sur rendez-vous pour les clients en grande difficulté. J'ai dû faire preuve de certaines qualités relationnelles ainsi que de savoir-être pour être cohérent avec l'image haut de gamme voulue par le Mégastore, une boutique pilote dans laquelle sont testés les nouveaux concepts avant d'être déployés partout en France.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div id="titre experience professionnelle">
-                        <h3>EXPERIENCE PROFESSIONNELLE</h3>
-                    </div>
-                    <hr/>
-                    <div id="experience professionnelle">
-                        <div id="experience 1 gauche">
-                            <p>
-                                29/07/19 - 23/08/19
-                                <br />
-                                Lyon, Confluence
-                            </p>
+                        <div id="titre_recomandations">
+                            <h3><span class="icone"><i class="fas fa-pencil-alt"></i></span>RECOMMANDATIONS</h3>
                         </div>
-                        <div id="experience 1 droite">
-                            <h4>ECOLE 42</h4>
-                            <p>
-                                "Piscine" de l'Ecole 42
-                            </p>
-                            <p>
-                                Une immersion intensive d'un mois, 7j/7 dans le monde du code informatique. C'est la phase de sélection pour chaque promotion de cette école d'un genre nouveau, créée par Xvie NIEL, le PDG de l'opérateur Free Mobile. C'est durant cette phase d'un mois que je me suis initié au code informatique (particulièrement en C, mais également en Unix, j'y ai aussi découvert Git).
-                            </p>
-                        </div>
-                        <div id="experience 2 gauche">
-                            <p>
-                                07/17 - 07/19
-                                <br />
-                                Lyon, Bellecour
-                            </p>
-                        </div>
-                        <div id="experience 2 droite">
-                            <h4>MEGASTORE ORANGE REPUBLIQUE</h4>
-                            <p>
-                                Conseiller Technique (En apprentissage)
-                            </p>
-                            <p>
-                                Au cours de ce contrat d'apprentissage, mon rôle était de recevoir les clients, et les accompagner dans les difficultés rencontrées avec leurs équipements numériques (smartphone, tablette, objets connectés, box internet, décodeur TV et autres accessoires). Je m'occupais du S.A.V, ainsi que de donner des cours particuliers sur rendez-vous pour les clients en grande difficulté. J'ai dû faire preuve de certaines qualités relationnelles ainsi que de savoir-être pour être cohérent avec l'image haut de gamme voulue par le Mégastore, une boutique pilote dans laquelle sont testés les nouveaux concepts avant d'être déployés partout en France.
-                            </p>
-                        </div>
-                    </div>
-                    <div id="titre recomandations">
-                        <h3>RECOMMANDATIONS</h3>
-                    </div>
-                    <hr/>
-                    <div id="recomandations">
-                        <div id="recomandations gauche">
-                            <p>
-                                STEVE DUPONT
-                                <br />
-                                PDG, Agence fictive
-                                <br />
-                                Téléphone : 0123456789
-                                <br />
-                                Email : exemple@email.com
-                            </p>
-                        </div>
-                        <div id="recomandations droite">
-                            <p>
-                                BILL DUBOIS
-                                <br />
-                                PDG, Fake agency
-                                <br />
-                                Téléphone : 0987654321
-                                <br />
-                                Email : exemple2@email.com
-                            </p>
+                        <hr />
+                        <div class="row" id="row3">
+                            <!--COLONNE 1ER RECOMMANDATION-->
+                            <div class="col-sm-6" id="recomm_gauche">
+                                <p class="rapproche2">
+                                    STEVE DUPONT
+                                </p>
+                                <p>
+                                    PDG, Agence fictive
+                                </p>
+                                <p>
+                                    Téléphone : 0123456789
+                                </p>
+                                <p>
+                                    Email : exemple@email.com
+                                </p>
+                            </div>
+                            <!--COLONNE 2EME RECOMMANDATION-->
+                            <div class="col-sm-6" id="recomm_droite">
+                                <p class="rapproche2">
+                                    BILL DUBOIS
+                                </p>
+                                <p>
+                                    PDG, Fake agency
+                                </p>
+                                <p>
+                                    Téléphone : 0987654321
+                                </p>
+                                <p>
+                                    Email : exemple2@email.com
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
             </div>
-            <!--     FIN STRUCTURE + CONTENU CORPS DU CV       -->
+            <!--FIN STRUCTURE + CONTENU CORPS DU CV-->
         </div>
     </div>
 </body>
