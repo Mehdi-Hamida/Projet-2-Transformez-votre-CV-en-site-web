@@ -61,6 +61,7 @@ img
 #icone_loisir1, #icone_loisir2, #icone_loisir3, #icone_loisir4, #icone_loisir5
 {
     margin-right: 7%;
+    margin-bottom: 5%; /*Pour pas que ca s'entasse sur affichage mobile*/
     color: white;
     font-size: 3.5em;
 }
