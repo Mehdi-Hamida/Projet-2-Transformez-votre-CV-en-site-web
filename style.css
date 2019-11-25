@@ -1,4 +1,4 @@
-/* DEBUT STYLES GENERAUX */
+    /* DEBUT STYLES GENERAUX */
 *
 {
     font-family: 'Roboto', sans-serif;
@@ -38,6 +38,7 @@ h3
 }
 /* FIN STYLES GENERAUX */
 /* DEBUT STYLES POUR COLONNE GAUCHE */
+
 img
 {
     width: 110%;
@@ -49,6 +50,13 @@ img
     text-align: center;
     margin-top: 10%;
     margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+    background-image: url(img/photo_cv2.jpg);
+    background-position: top center;
 }
 
 #contact
@@ -113,7 +121,7 @@ img
 {
     margin-right: 3%;
 }
-
+é
 i
 {
     color: #1DE9B6;
