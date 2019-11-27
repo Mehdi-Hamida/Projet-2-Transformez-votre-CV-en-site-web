@@ -24,7 +24,6 @@ p
 #lien1
 {
     color: white;
-    text-decoration: underline;
 }
 
 #lien
@@ -55,7 +54,7 @@ img
     width: 10em;
     height: 10em;
     border-radius: 5em;
-    background-image: url(img/photo_cv2.jpg);
+    background-image: url("img/photo_cv2.jpg");
     background-position: top center;
 }
 
@@ -98,6 +97,11 @@ img
 .rapproche
 {
     margin-bottom: 0px;
+}
+
+.eloigne
+{
+    margin-bottom: 5%;
 }
 /* FIN STYLES POUR COLONNE GAUCHE */
 /* DEBUT STYLES POUR CORPS DU CV */
@@ -168,6 +172,7 @@ h2
 h4
 {
     font-size: medium;
+    font-weight: bold;
 }
 
 hr
