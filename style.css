@@ -46,16 +46,11 @@ img
 
 #photo
 {
-    text-align: center;
     margin-top: 10%;
-    margin-bottom: 7%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10em;
-    height: 10em;
-    border-radius: 5em;
-    background-image: url("img/photo_cv2.jpg");
-    background-position: top center;
+    margin-bottom: 10%;
+    text-align: center;
+    padding-right: 0.5em;
+    /*Le padding-right permet de correctement centrer l'image, y compris sur les plus petits écrans tels que l'Iphone SE*/
 }
 
 #contact
