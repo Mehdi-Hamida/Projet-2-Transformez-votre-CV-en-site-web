@@ -13,6 +13,8 @@
 #col2
 {
     color: black;
+    padding: 0;
+    margin-left: -0.2em;
 }
 
 p
@@ -33,7 +35,7 @@ p
 
 h3
 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 /* FIN STYLES GENERAUX */
 /* DEBUT STYLES POUR COLONNE GAUCHE */
@@ -46,8 +48,8 @@ img
 
 #photo
 {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     text-align: center;
     padding-right: 0.5em;
     /*Le padding-right permet de correctement centrer l'image, y compris sur les plus petits écrans tels que l'Iphone SE*/
