@@ -16,7 +16,7 @@
 
     p {
         overflow-wrap: break-word;
-        font-size: medium;
+        font-size: 1em;
     }
 
     #lien1 {
@@ -28,7 +28,7 @@
     }
 
     h3 {
-        font-size: 1.3em;
+        font-size: 1.12em;
     }
 
     /* FIN STYLES GENERAUX */
@@ -39,12 +39,12 @@
         max-width: 10em;
     }
 
+    /*Le padding-right permet de correctement centrer l'image, y compris sur les plus petits écrans tels que l'Iphone SE*/
     #photo {
         margin-top: 15%;
         margin-bottom: 15%;
         text-align: center;
         padding-right: 0.5em;
-        /*Le padding-right permet de correctement centrer l'image, y compris sur les plus petits écrans tels que l'Iphone SE*/
     }
 
     #contact {
@@ -62,6 +62,7 @@
         margin-left: 5%;
     }
 
+    /*Margin-bottom pour ne pas que ca s'entasse sur affichage mobile*/
     #icone_loisir1,
     #icone_loisir2,
     #icone_loisir3,
@@ -69,17 +70,16 @@
     #icone_loisir5 {
         margin-right: 7%;
         margin-bottom: 7%;
-        /*Pour ne pas que ca s'entasse sur affichage mobile.*/
         color: white;
         font-size: 3.5em;
     }
 
+    /*Valeurs négatives pour occuper tout l'écran*/
     .categories_gauche {
         text-align: center;
         background-color: white;
         color: #1DE9B6;
         margin-left: -15%;
-        /*Valeurs négatives pour occuper tout l'écran*/
         margin-right: -15%;
         margin-bottom: 5%;
     }
