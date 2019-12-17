@@ -1,186 +1,164 @@
     /* DEBUT STYLES GENERAUX */
-*
-{
-    font-family: 'Roboto', sans-serif;
-}
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
 
-#col1
-{
-    background-color: #1DE9B6;
-    color: white;
-}
+    #col1 {
+        background-color: #1DE9B6;
+        color: white;
+    }
 
-#col2
-{
-    color: black;
-    padding: 0;
-    margin-left: -0.2em;
-}
+    #col2 {
+        color: black;
+        padding: 0;
+        margin-left: -0.2em;
+    }
 
-p
-{  
-    overflow-wrap: break-word;
-    font-size: medium;
-}
+    p {
+        overflow-wrap: break-word;
+        font-size: medium;
+    }
 
-#lien1
-{
-    color: white;
-}
+    #lien1 {
+        color: white;
+    }
 
-#lien
-{
-    color: #1DE9B6;
-}
+    #lien {
+        color: #1DE9B6;
+    }
 
-h3
-{
-    font-size: 1.3em;
-}
-/* FIN STYLES GENERAUX */
-/* DEBUT STYLES POUR COLONNE GAUCHE */
+    h3 {
+        font-size: 1.3em;
+    }
 
-img
-{
-    width: 110%;
-    max-width: 10em;
-}
+    /* FIN STYLES GENERAUX */
+    /* DEBUT STYLES POUR COLONNE GAUCHE */
 
-#photo
-{
-    margin-top: 15%;
-    margin-bottom: 15%;
-    text-align: center;
-    padding-right: 0.5em;
-    /*Le padding-right permet de correctement centrer l'image, y compris sur les plus petits écrans tels que l'Iphone SE*/
-}
+    img {
+        width: 110%;
+        max-width: 10em;
+    }
 
-#contact
-{
-    margin-left: 5%;
-}
+    #photo {
+        margin-top: 15%;
+        margin-bottom: 15%;
+        text-align: center;
+        padding-right: 0.5em;
+        /*Le padding-right permet de correctement centrer l'image, y compris sur les plus petits écrans tels que l'Iphone SE*/
+    }
 
-#description
-{
-    text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    #contact {
+        margin-left: 5%;
+    }
 
-#loisirs
-{
-    text-align: center;
-    margin-left: 5%;
-}
+    #description {
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-#icone_loisir1, #icone_loisir2, #icone_loisir3, #icone_loisir4, #icone_loisir5
-{
-    margin-right: 7%;
-    margin-bottom: 7%; /*Pour ne pas que ca s'entasse sur affichage mobile.*/
-    color: white;
-    font-size: 3.5em;
-}
+    #loisirs {
+        text-align: center;
+        margin-left: 5%;
+    }
 
-.categories_gauche
-{
-    text-align: center;
-    background-color: white;
-    color: #1DE9B6;
-    margin-left: -15%;/*Valeurs négatives pour occuper tout l'écran*/
-    margin-right: -15%;
-    margin-bottom: 5%;
-}
+    #icone_loisir1,
+    #icone_loisir2,
+    #icone_loisir3,
+    #icone_loisir4,
+    #icone_loisir5 {
+        margin-right: 7%;
+        margin-bottom: 7%;
+        /*Pour ne pas que ca s'entasse sur affichage mobile.*/
+        color: white;
+        font-size: 3.5em;
+    }
 
-.rapproche
-{
-    margin-bottom: 0px;
-}
+    .categories_gauche {
+        text-align: center;
+        background-color: white;
+        color: #1DE9B6;
+        margin-left: -15%;
+        /*Valeurs négatives pour occuper tout l'écran*/
+        margin-right: -15%;
+        margin-bottom: 5%;
+    }
 
-.eloigne
-{
-    margin-bottom: 5%;
-}
-/* FIN STYLES POUR COLONNE GAUCHE */
-/* DEBUT STYLES POUR CORPS DU CV */
-#en-tete
-{
-    margin-top: 4em;
-}
+    .rapproche {
+        margin-bottom: 0px;
+    }
 
-#corps_du_cv
-{
-    margin-left: 5%;
-    margin-right: 3%;
-}
+    .eloigne {
+        margin-bottom: 5%;
+    }
 
-.col-sm-3, .col-sm-6
-{
-    margin-bottom: 5%;
-}
+    /* FIN STYLES POUR COLONNE GAUCHE */
+    /* DEBUT STYLES POUR CORPS DU CV */
+    #en-tete {
+        margin-top: 4em;
+    }
 
-.icone
-{
-    margin-right: 3%;
-}
-é
-i
-{
-    color: #1DE9B6;
-}
+    #corps_du_cv {
+        margin-left: 5%;
+        margin-right: 3%;
+    }
 
-.dernier_paragraphe
-{
-    margin-bottom: 4em;
-}
+    .col-sm-3,
+    .col-sm-6 {
+        margin-bottom: 5%;
+    }
 
-.rapproche2
-{
-    margin-bottom: 5px;
-}
+    .icone {
+        margin-right: 3%;
+    }
 
-strong
-{
-    color: #1DE9B6;
-}
+    é i {
+        color: #1DE9B6;
+    }
 
-#court
-{
-    float: left;
-    width: 3em;
-}
+    .dernier_paragraphe {
+        margin-bottom: 4em;
+    }
 
-#formation
-{
-    margin-top: 4em;
-}
+    .rapproche2 {
+        margin-bottom: 5px;
+    }
 
-h1
-{
-    font-size: 2.8em;
-    margin-bottom: 0%;
-}
+    strong {
+        color: #1DE9B6;
+    }
 
-h2
-{
-    font-size: 1.5em;
-    margin-bottom: 0.2%;
-}
+    #court {
+        float: left;
+        width: 3em;
+    }
 
-h4
-{
-    font-size: medium;
-    font-weight: bold;
-}
+    #formation {
+        margin-top: 4em;
+    }
 
-hr
-{
-    background-color: #1DE9B6;
-    margin-top: 0%;
-    margin-bottom: 2em;
-}
+    h1 {
+        font-size: 2.8em;
+        margin-bottom: 0%;
+    }
 
-em
-{
-    font-weight: bold;
-    font-style: normal;
-}
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 0.2%;
+    }
+
+    h4 {
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    hr {
+        background-color: #1DE9B6;
+        margin-top: 0%;
+        margin-bottom: 2em;
+    }
+
+    em {
+        font-weight: bold;
+        font-style: normal;
+    }
